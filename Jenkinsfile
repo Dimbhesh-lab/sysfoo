@@ -13,15 +13,11 @@ pipeline{
      }
   }
 
-  stages{
-
    stage('Unit Test'){
      steps{
        sh 'mvn clean test'
      }
   }
-
-   stages{
 
    stage('Package'){
      steps{
