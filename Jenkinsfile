@@ -28,8 +28,5 @@ pipeline{
        sh 'mvn package -DskipTest'
      }
   }
-}
-
-}
-}
+ }
 }
